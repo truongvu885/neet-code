@@ -1,6 +1,5 @@
 package valid_anagram;
 import java.util.Arrays;
-import java.util.Map;
 //https://neetcode.io/problems/is-anagram?list=allNC
 /**
  * convert string to char arrays
@@ -9,7 +8,7 @@ import java.util.Map;
  * time complexity: O(nlogn + mlogm)
  * space complexity; O(1) or O(n+m) depending on the sorting algorithm
  */
-public class ValidAnagram {
+public class ValidAnagram_CharacterArraySort {
     public static void main(String [] args){
         System.out.println(isAnagram("anagram", "aanrgam"));
     }
@@ -21,12 +20,9 @@ public class ValidAnagram {
         char[] sChars = s.toCharArray();
         char[] tChars = s.toCharArray();
 
-       
         Arrays.sort(sChars);
         Arrays.sort(tChars);
 
-        System.out.println(sChars);
-        System.out.println(tChars);
         return Arrays.equals(sChars, tChars);
     }
 

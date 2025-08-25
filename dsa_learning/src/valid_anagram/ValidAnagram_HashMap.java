@@ -8,7 +8,7 @@ import java.util.Map;
  * time complexity: O(n+m)
  * space complexity: O(1)
  */
-public class ValidAnagram_2 {
+public class ValidAnagram_HashMap {
     public static void main(String[] args) {
         System.out.println(isAnagram("anagram", "anagrma"));
     }
