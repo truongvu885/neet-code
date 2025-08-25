@@ -1,3 +1,4 @@
+package valid_anagram;
 import java.util.Arrays;
 import java.util.Map;
 //https://neetcode.io/problems/is-anagram?list=allNC
